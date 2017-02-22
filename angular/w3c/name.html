@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+	</head>
+	<body>
+	
+		<div ng-app="">
+			<p>Name: <input type="text" ng-model="name"></p>
+			<p ng-bind="name"></p>
+		</div>
+		
+		<div data-ng-app="" data-ng-init="firstName='John'">
+			<p>The name is <span data-ng-bind="firstName"></span></p>
+		</div>
+		
+	</body>
+</html>
